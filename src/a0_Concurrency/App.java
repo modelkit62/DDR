@@ -21,7 +21,7 @@ public class App {
         Thread thread_1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 1000; i++) {
+                for (int i = 0; i < 10000; i++) {
                     counter.increment();
                 }
             }
@@ -29,14 +29,14 @@ public class App {
         Thread thread_2 = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < 1000; i++) {
+                for (int i = 0; i < 10000; i++) {
                     counter.increment();
                 }
             }
         });
         thread_1.start();
         thread_2.start();
-        Thread.sleep(1);
+        Thread.sleep(10);
 
         System.out.println("Counter value: " + counter.getValue());
     }
