@@ -27,9 +27,9 @@ class Pizza {
         @Override
         public String toString() {
             return "Builder{" +
-                    "size=" + size +
-                    ", tomato=" + tomato +
-                    ", cheese=" + cheese +
+                    "size =" + size +
+                    ", tomato =" + tomato +
+                    ", cheese =" + cheese +
                     '}';
         }
     }
