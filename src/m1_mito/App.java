@@ -22,7 +22,6 @@ public class App {
             if(counter[i] != 0){
                 System.out.println((char) i + " -> " + counter[i]);
             }
-
         }
     }
 }
