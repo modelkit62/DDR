@@ -4,9 +4,10 @@ import a0_Pluralsight_TDD.CODE.BusinessFlight;
 import a0_Pluralsight_TDD.CODE.EconomyFlight;
 import a0_Pluralsight_TDD.CODE.Flight;
 import a0_Pluralsight_TDD.CODE.Passenger;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
+
 
 public class AirportTest {
 

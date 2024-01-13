@@ -1,13 +1,12 @@
 package a0_Threads2_runnableVSTread;
 
-import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.logging.LoggerFactory;
+import org.junit.Test;
 
 import java.util.logging.Logger;
 
 class SimpleThread extends Thread {
 
-    private static final Logger log = (Logger) LoggerFactory.getLogger(SimpleThread.class);
+   /* private static final Logger log = (Logger) LoggerFactory.getLogger(SimpleThread.class);
 
     private String message;
 
@@ -54,7 +53,7 @@ class SimpleRunnable implements Runnable {
         thread.start();
         thread.join();
     }
-
+*/
 }
 
 
