@@ -29,9 +29,9 @@ public class App {
         char[] letras = string.toCharArray();
         while(primero < ultimo){
             char vocal_1 = letras[posiciones.get(primero)];
-            char vocal_2 = letras[posiciones.get(ultimo)];
+            // char vocal_2 = letras[posiciones.get(ultimo)];
 
-            letras[posiciones.get(primero)] = vocal_2;
+            letras[posiciones.get(primero)] = letras[posiciones.get(ultimo)]; // char vocal_2
             letras[posiciones.get(ultimo)] = vocal_1;
 
             primero++;
